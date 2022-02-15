@@ -1,0 +1,27 @@
+.learning{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.learning > ul > li {
+
+list-style: none;
+}
+
+.learning > ul > li:hover {
+
+  list-style: decimal;
+  }
+
+.learning > ul > li > a {
+  text-decoration: none;
+}
+
+.learning > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.learning > ul > li > span {
+  color: #444;
+} 

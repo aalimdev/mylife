@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header__time {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header > h2 {
+  text-align: center;
+}
+
+.category__header{
+width: 100%;
+}
+
+/* @media only screen and (min-width:1050px) {
+  .category{
+    width:25%;
+  }
+} 
+
+@media only screen and (max-width:900px) {
+  .category{
+    width: 45%;
+  }
+ }
+
+@media only screen and (max-width: 600px) {
+  .category{
+    width: 100%;
+  }
+} */

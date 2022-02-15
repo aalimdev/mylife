@@ -1,0 +1,28 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.projects > ul > li {
+  list-style: none;
+  
+}
+
+.projects > ul > li:hover {
+  list-style:decimal;
+}
+
+.projects > ul > li > a {
+  text-decoration: none;
+}
+
+.projects > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.projects > ul > li > span {
+  color: #444;
+}
+
+

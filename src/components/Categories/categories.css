@@ -1,0 +1,43 @@
+.categories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category {
+  width: 25%;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 15px;
+  
+}
+
+@media only screen and (min-width:1050px) {
+  .category{
+    width:25%;
+  }
+} 
+
+@media only screen and (max-width:900px) {
+  .category{
+    width: 45%;
+  }
+ }
+
+@media only screen and (max-width: 600px) {
+  .category{
+    width: 100%;
+  }
+}
+
+
+
+ 
+
+
+
+
+
+
